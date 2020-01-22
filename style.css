@@ -1,0 +1,77 @@
+body{ background-color: rgb(219, 221, 223);
+    
+}
+.top {
+    background:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    
+  
+}
+img {
+    width: 100%;
+}
+.center {
+    display: block;
+    font-size: 20px;
+    width: 600px;
+    margin: auto;
+    
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font: size 30;px;
+    position:relative;right:100px;
+}
+
+h2{
+    float: left; width: 50%;
+    position:relative;left:10px;top: 1px;
+    font-size: 20px;
+}
+p.date {
+    text-align: right;
+    float: right; width: 50%;
+    position:relative;right:15px;top:1px;
+}
+
+p.comment {
+    position:relative;left:10px;bottom:9px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+}
+
+div[id*='photo'] {
+    background-color: white;
+    background-size: 95px;
+    font-family: 'Roboto Condensed', sans-serif;
+   
+}
+
+div[id*='photo-one']{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+div[id*='photo-two']{
+    margin-bottom: 30px;
+}
+
+div[id*='photo-three']{
+    margin-bottom: 30px;
+}
+
+div[id*='photo-four']{
+    margin-bottom: 50px;
+}
+
+.date {
+    
+    font-family: 'Roboto', sans-serif;color: gray;
+    font-size: 18px;
+
+}
